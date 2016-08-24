@@ -20,4 +20,4 @@ replace the if == with the layout name of your block you wish the related catego
 
 Example
 --------------------------------------
-vist [Fashion Threads Boutique]https://www.fashionthreadsboutique.co.uk/mens-winter-coat-fashion-wadded-outdoor-thick-warm-cotton-padded-jacket.html for an example 
+vist [Fashion Threads Boutique](https://www.fashionthreadsboutique.co.uk/mens-winter-coat-fashion-wadded-outdoor-thick-warm-cotton-padded-jacket.html) for an example 
