@@ -17,3 +17,7 @@ if ($_block->getNameInLayout() == 'awarp.content.inside.product') {
 ```
 
 replace the if == with the layout name of your block you wish the related categories to display before. 
+
+Example
+--------------------------------------
+vist [Fashion Threads Boutique]https://www.fashionthreadsboutique.co.uk/mens-winter-coat-fashion-wadded-outdoor-thick-warm-cotton-padded-jacket.html for an example 
