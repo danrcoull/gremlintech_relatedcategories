@@ -1,0 +1,15 @@
+{
+  "name": "gremlintech/relatedcategories",
+  "type": "magento-module",
+  "description": "List all related categories",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Coull",
+      "email": "ttechitsolutions@gmail.com"
+    }
+  ],
+  "require": {
+    "ecomdev/ecomdev_phpunit": "*"
+  }
+}

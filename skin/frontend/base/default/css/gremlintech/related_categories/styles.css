@@ -1,0 +1,32 @@
+.related-cat
+{
+    position:relative;
+    display:block;
+    width:100%;
+    clear:both;
+}
+
+.related-cat .menu
+{
+    margin: 0;
+    list-style-type: none;
+}
+
+.related-cat .menu li
+{
+    line-height: 1;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.related-cat .menu li a
+{
+    padding:0px;
+    text-decoration:underline;
+
+}
+.related-cat .menu li:last-child
+{
+    content:"";
+    display:none;
+}

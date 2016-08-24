@@ -1,0 +1,36 @@
+<div class="block related-categories">
+    <div class="page-title">
+        <h3>Related Categories</h3>
+    </div>
+    <div class="block-content">
+        <?php
+        foreach ($this->getCollection() as $related) {
+            ?>
+            <div class="related-cat">
+                <ul class="menu simple">
+                    <li>Shop More:</li>
+                    <?php
+                    $count = 0;
+                    foreach ($related as $path) :
+                            $title = "Shop " . $path['name'] . " at " . Mage::app()->getWebsite()->getName();
+                            ?>
+                            <li>
+                                <a href="<?php echo $path['url']; ?>" title="<?php echo $title; ?> ">
+                                    <?php echo $path['name']; ?>
+                                </a>
+                            </li>
+                            <li>
+                                <strong> &#10142; </strong>
+                            </li>
+                            <?php
+
+
+                        $count++;
+                    endforeach; ?>
+                </ul>
+            </div>
+            <?php
+        }
+        ?>
+    </div>
+</div>
