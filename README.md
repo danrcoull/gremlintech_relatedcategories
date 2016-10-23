@@ -16,7 +16,21 @@ if ($_block->getNameInLayout() == 'awarp.content.inside.product') {
         }
 ```
 
-replace the if == with the layout name of your block you wish the related categories to display before. 
+replace the if == with the layout name of your block you wish the related categories to display before.
+
+
+If using sass, you can copy the _relatedcategories.scss straight into your theme and remove the original styles.css
+using the below in your local.xml
+
+```xml
+
+<catalog_product_view>
+    <reference name="head">
+        <action method="removeItem"><type>skin_css</type><name>css/gremlintech/related_categories/styles.css</name></action>
+    </reference>
+</catalog_product_view>
+
+```
 
 Example
 --------------------------------------
