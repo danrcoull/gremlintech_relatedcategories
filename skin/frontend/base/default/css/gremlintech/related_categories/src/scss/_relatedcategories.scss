@@ -1,0 +1,23 @@
+.related-cat {
+  position: relative;
+  display: block;
+  width: 100%;
+  clear: both;
+  .menu {
+    margin: 0;
+    list-style-type: none;
+    li {
+      line-height: 1;
+      display: inline-block;
+      margin-right: 1rem;
+      a {
+        padding: 0px;
+        text-decoration: underline;
+      }
+      &:last-child {
+        content: "";
+        display: none;
+      }
+    }
+  }
+}
